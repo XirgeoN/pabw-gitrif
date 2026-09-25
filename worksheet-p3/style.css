@@ -1,0 +1,43 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #ababab;
+}
+
+header {
+  background-color: #8a3700;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.daftar-game {
+  list-style-type: upper-alpha;
+  padding: 0;
+  margin: auto;
+}
+
+.daftar-game li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.daftar-game li:hover {
+  background-color: #df2727;
+}
